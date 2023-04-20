@@ -1,0 +1,10 @@
+public class CreateAJavaBean{
+    public static void main(String[] args) {
+        Person01 person=new Person01();//Java bean has been instantiate
+
+        person.setFirstName("HARSH");
+        person.setLastName("NAYAK");
+
+        System.out.println("Java bean data:"+person.getFirstName()+" "+person.getLastName());
+    }
+}
